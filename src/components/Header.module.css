@@ -1,0 +1,21 @@
+
+
+.header {
+    background:var(--Gray-700);
+    display:flex;
+    justify-content:center;
+    padding:4.25rem 0;   
+}
+
+.header img{
+    height:2rem;
+}
+
+.header strong{
+    color:#4EA8DE;
+}
+
+.header span {
+    color:#1E6F9F;
+}
+

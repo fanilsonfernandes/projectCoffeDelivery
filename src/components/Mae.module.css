@@ -1,0 +1,138 @@
+
+.butForm{
+   
+ display:flex;
+ flex-direction:column;
+ width:100%;
+ max-width: 739px;
+ margin: 0 auto;
+
+ 
+    
+ 
+}
+
+
+
+.butForm form{
+   
+    display:flex;
+    gap:5px;
+    width:100%;
+    max-width: 739px;
+    height:54px;
+    margin-top: -2rem;
+    
+       
+    
+   }
+
+.butForm input{
+    background:var(--Gray-400);
+    border-radius:8px;   
+    width:100%;
+    resize:none;
+    display:block;
+    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    
+}
+
+
+
+
+
+    
+
+
+.butForm button{
+    background: #4EA8DE;
+    border-radius:8px;   
+    width:200px;
+    border: 0;
+    color: #fff; 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:0.5rem;
+   
+    
+}
+
+ .tasks{
+    width:100%;
+ max-width: 739px;
+ margin-top: 5rem;
+
+
+}
+.tpc{
+    width:100%;
+    max-width: 739px;
+    display:flex;
+    font-weight:bold;
+    
+    align-items:center;
+    justify-content:space-between;
+   
+
+}
+.twoBox{
+
+    width:100%;
+    max-width: 739px;
+    display:flex;
+    font-weight:bold;
+    margin-top:4rem;
+    
+    align-items:center;
+    justify-content:space-between;
+
+}
+
+
+
+.tareCriada{
+    font-size:14px;
+    color:#4EA8DE;
+}
+
+.tareConcluida{
+    font-size:14px;
+    color:#8284FA;
+   
+}
+.empt{
+    width:100%;
+    max-width: 739px;
+    height:244px;
+    margin: 0 auto;
+    display:flex;
+    font-weight:bold;
+    flex-direction:column;
+
+    margin-top:2rem;
+    align-items:center;
+    justify-content:center;
+   
+    border-radius:8px;
+    border-top:1px solid var(--Gray-300);
+
+}
+
+
+.text{
+    weight:688px;
+    height:44px;
+    margin-top:2rem;
+    
+    
+}
+.text p{
+    font-size:16px;
+    font-weight:bold;
+    color:var(--Gray-300);
+}
